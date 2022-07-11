@@ -28,7 +28,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "MyAppBar",
+      title: "MyAppBar 2022",
       home: MainPage(),
     );
   }
