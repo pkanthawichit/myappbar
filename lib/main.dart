@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -16,7 +17,7 @@ class MainPageState extends State<MainPage> {
       ),
       body: Column(
         children: <Widget>[
-          Text("Hello"),
+          Text("Hello   MyAppBar"),
         ],
       ),
     );
