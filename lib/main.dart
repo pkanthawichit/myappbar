@@ -14,12 +14,19 @@ class MainPageState extends State<MainPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("ITem"),
+        centerTitle: true,
       ),
-      body: Column(
-        children: <Widget>[
-          Text("Hello   MyAppBar"),
-        ],
+      body: Center(
+        child: Text("Hello   MyAppBar,"),
       ),
+      
+      //
+      floatingActionButton: FloatingActionButton(
+          child: Text('Clik'),
+          onPressed: () {
+            print("Click Buttom");
+         }),
+      //    
     );
   }
 }
